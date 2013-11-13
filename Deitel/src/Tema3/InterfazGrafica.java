@@ -1,4 +1,4 @@
-package Deitel.Ejercicios.Tema3;
+package Tema3;
 
 import javax.swing.JOptionPane;
 
