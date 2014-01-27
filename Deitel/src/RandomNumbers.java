@@ -10,7 +10,7 @@ public class RandomNumbers {
 		Random randomNumbers = new Random();
 		
 		// PUEDO LLAMAR A ESTA SENTENCIA PARA DECIRLE EN CUALQUIER MOMENTO QUE ACTUALICE EL SEED, así no se entra en una rutina de numeros iguales
-		randomNumbers.set( seedValue );
+		//randomNumbers.set( seedValue );
 		
 		int randomValue = 0;
 		
