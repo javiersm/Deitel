@@ -20,7 +20,7 @@ public class CreateTextFile
    {
       try
       {
-         output = new Formatter( "textfields/clients.txt" );
+         output = new Formatter( "clients.txt" );
          System.out.println(output.toString());
       } // end try
       catch ( SecurityException securityException )
@@ -67,8 +67,8 @@ public class CreateTextFile
             if ( record.getAccount() > 0 )
             {
                // write new record
-               output.format( "%d %s %s %.2f\n", record.getAccount(), 
-                  record.getFirstName(), record.getLastName(),
+               output.format( "%d %s %s %.2f %n", record.getAccount(), //%n es un salto de linea que vale para todos los sistemas operativos win-unix
+                  record.getFirstName(), record.getLastName(),		//%n thus ensuring that the text file can be opened and viewed correctly in a text editor for the platform on which the file was created.
                   record.getBalance() );
             } // end if
             else
