@@ -1,4 +1,0 @@
-Deitel
-======
-
-ejercicios libro Deitel
