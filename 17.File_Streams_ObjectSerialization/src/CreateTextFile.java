@@ -1,5 +1,6 @@
 
 
+
 // Fig. 14.7: CreateTextFile.java
 // Writing data to a text file with class Formatter.
 import java.io.FileNotFoundException;
